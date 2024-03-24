@@ -1,0 +1,24 @@
+# Fichier .gitignore
+
+# Ignorer le dossier vendor (dépendances PHP installées par Composer)
+/vendor/
+
+# Ignorer le dossier node_modules (dépendances JavaScript installées par npm)
+/node_modules/
+
+# Ignorer le dossier dist (fichiers générés par Gulp)
+/dist/
+
+# Ignorer les fichiers de configuration spécifiques à l'environnement
+.env
+
+# Ignorer les fichiers de cache et les logs
+*.log
+*.cache
+
+# Ignorer les fichiers spécifiques à l'IDE (par exemple, pour Visual Studio Code)
+.vscode/
+.idea/
+
+# Ignorer les fichiers spécifiques au système d'exploitation (par exemple, pour macOS)
+.DS_Store

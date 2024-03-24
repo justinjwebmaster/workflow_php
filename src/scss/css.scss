@@ -1,0 +1,36 @@
+/* ----------------------------------------------------------------
+	Import
+-----------------------------------------------------------------*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+//-------------------- Config --------------------//
+
+@import '../../node_modules/sass-rem/rem';
+@import '../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
+@import '../../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css'; 
+@import '../../node_modules/magnific-popup/dist/magnific-popup.css';
+@import '../../node_modules/aos/dist/aos.css';
+@import "../../node_modules/slick-carousel/slick/slick.css";
+@import "../../node_modules/slick-carousel/slick/slick-theme.css";
+
+//--------------------- Base ---------------------//
+@import "./base/variables";
+@import "./base/mixins";
+@import "./base/base";
+@import "./base/typography";
+@import "./base/keyframe";
+
+//----------------- Components ------------------//
+@import "./components/button"; 
+@import "./components/slick"; 
+
+//------------------- Layout --------------------//
+@import "./layout/footer";
+@import "./layout/header";
+
+//------------------- Pages --------------------//
+@import "./pages/accueil";
